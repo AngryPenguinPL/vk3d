@@ -21,7 +21,8 @@ Requires:	%{libname} = %{EVRD}
 Requires:	%{libname_utils} = %{EVRD}
 
 %description
-Vulkan layer for support Direct3D 12 in wine
+Vkd3d is a 3D graphics library built on top of Vulkan. It has an API very
+similar, but not identical, to Direct3D 12. Vulkan layer for support Direct3D 12 in wine
 
 %files
 %doc AUTHORS COPYING LICENSE README
