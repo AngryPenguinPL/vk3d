@@ -98,7 +98,7 @@ This package contains the development files for Vulkan applications.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
