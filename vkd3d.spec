@@ -14,7 +14,7 @@ Url:		https://dl.winehq.org/vkd3d
 Source0:	https://dl.winehq.org/vkd3d/source/%{name}-%{version}.tar.xz
 BuildRequires:	xcb-util-devel
 BuildRequires:	xcb-util-wm-devel
-BuildRequires:	pkgconfig(vulkan)
+BuildRequires:	vulkan-devel
 BuildRequires:	pkgconfig(xcb-keysyms)
 
 Requires:	%{libname} = %{EVRD}
